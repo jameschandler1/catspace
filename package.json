@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "client": "nodemon client/src/index.js",
+    "server": "nodemon server/src/index.js",
+    "start": "npm run client && npm run server"
+  },
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}
